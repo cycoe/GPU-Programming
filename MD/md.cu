@@ -390,6 +390,7 @@ int main(int argc, char **argv) {
 
   float3 lj1, lj2;
 
+  // calculate these constants firstly
   lj1.x = 4.0 * epsilon.x * pow(sigma.x, int(12));
   lj1.y = 4.0 * epsilon.y * pow(sigma.y, int(12));
   lj1.z = 4.0 * epsilon.z * pow(sigma.z, int(12));
